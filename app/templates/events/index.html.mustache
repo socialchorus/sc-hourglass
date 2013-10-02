@@ -1,0 +1,12 @@
+<h1>Events</h1>
+<hr/>
+{{#events}}
+<div>
+  <p><span class="title">Name:</span> {{name}} 
+     <span class="title">Status:</span> <span class="status {{status}}">{{status}}</span></p>
+  <p><span class="title">Started at:</span> {{start_time}}
+    {{#end_time}}<span class="title">Ended at:</span> {{end_time}}{{/end_time}} </p>
+  <p>{{#error}}<span class="title">Error:</span> {{error}}{{/error}} </p>
+</div>
+<hr/>
+{{/events}}

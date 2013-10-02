@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  username: socialchorus
+  password:
+  database: hourglass_development
+  pool: 5
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  username: socialchorus
+  password:
+  database: hourglass_test
+  pool: 5
+  host: localhost
