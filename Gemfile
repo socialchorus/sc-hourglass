@@ -10,6 +10,8 @@ gem 'superbolt'
 
 gem 'mustache'
 gem 'stache'
+
+gem 'rails_12factor', group: :production
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -37,3 +39,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 # To use debugger
 # gem 'debugger'
+ruby '2.0.0'
