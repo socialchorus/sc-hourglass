@@ -1,7 +1,7 @@
 module Events
   class Index < ::Stache::Mustache::View
     def events
-      Event.all
+      ::Events::Serializer.new.events
     end
   end
 end

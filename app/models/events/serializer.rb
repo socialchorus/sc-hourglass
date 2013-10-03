@@ -12,8 +12,8 @@ module Events
       {
         name: event.name,
         status: event.status,
-        started_at: event.started_at.localtime,
-        ended_at: event.ended_at.localtime,
+        start_time: event.start_time.localtime,
+        end_time: event.end_time.localtime,
         error: event.error
       }
     end
