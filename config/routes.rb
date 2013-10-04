@@ -1,5 +1,5 @@
 Hourglass::Application.routes.draw do
-  match 'events' => 'events#index'
+  get 'events', to: 'events#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
